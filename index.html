@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+
+<body>
+    <div class="pathFill" id="app">
+        <h1 class="title">Get JSON links</h1>
+        <form>
+            <label for="id">id</label>
+            <input class="jsInput" name="id" id="userID" type="text" value="20">
+            <label for="name">name</label>
+            <input class="jsInput" name="name" id="userName" type="text" value="John Doe">
+            <label for="role">role</label>
+            <input class="jsInput" name="role" id="userRole" type="text" value="QA">
+            <label for="salary">salary</label>
+            <input class="jsInput" name="salary" id="userSalary" type="text" value="100">
+            <button id="getValues" type="submit">Catch it</button>
+            <textarea id="output" name="output" rows="3" v-bind:value="newUser.id"></textarea>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
