@@ -8,3 +8,5 @@ To display links, enter:
 - Salary
 
 Еhe solution will give you: ["/api/items/**ID**/**Name%whithout%spaces**","/api/items/**ID**/**Role**","/api/items/20/**Salary**"]
+
+Link to try: https://www.thndr.ru/mk/
